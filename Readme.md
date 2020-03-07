@@ -1,2 +1,2 @@
-HTML&CSS Project
-This is my firt code!
+HTML&CSS Project: 
+This is my first code!
