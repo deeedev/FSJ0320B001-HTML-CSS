@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,400,700,800&display=swap');
+*{
+    padding: 0mm;
+    margin: 0mm;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+    nav ul li{
+    margin-left: 5mm;
+}
+
+header div h1{
+    position: relative;
+    top: 30px;
+    right: 115px;
+}
+header{
+    background-color: black;
+    color: white;
+}
+header div p{
+    font-size: 2em;
+    font-weight: 200;
+}
+header p {
+    font-size: 50%;
+    text-align: center;
+}
+header h1{
+    font-size: 3em;
+    text-align: center;
+}
+body{
+    font-family:'Nunito Sans', sans-serif;
+    font-size: 10px;
+    background-color: #EDEEF0;
+}
+
+#home{
+    background-color: black;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+#bio{
+    display: flex;
+    height: 300px;
+    margin: 80px;
+    align-items: center;
+}
+#bio article *{
+margin: 20px;
+}
+.break{
+    display: block;
+}
+#portfolio{
+    background-color: black;
+    color: white;
+    height: 300px;
+    width: 100%;
+    
+}
+#portfolio h3,p, hr{
+    margin-bottom: 10px;
+}
+#portfolio div{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    width: 100%;
+}
+#portfolio div article{
+    background-color: white;
+    color: black;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+#portfolio div article p *{
+    padding: 0 20px;
+}
+
+#portfolio, #skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+#skills-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;    
+}
+#skills-container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#skills ul{
+    list-style: none;
+}
+#skills ul li{
+    margin: 5px;
+}
+#contact{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:40px 0 ;
+}
+#contact form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+line-height: 2em;
+width: 350px;
+border-radius: 3px;
+border-color: black;
+margin: 20px;
+}
+
+.logo-text{
+    font-size: 3em;
+    font-weight: 700;
+    color: #F05136;
+}
+.nav-link{
+    font-size: 1.8em;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.nav-link:hover{
+    color: #F05136;
+}
+
+.link-button{
+    text-decoration: none;
+    text-align: center;
+    font-weight: 80;
+    background-color: #F05136;
+    cursor: pointer;
+    color: white;
+    font-size: 1.4em;
+    padding: 7px;
+    border-radius: 8%;
+    border-color: black;
+}
+.link-button:hover{
+    color: white;
+}
+#bio img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 1.5em;
+}
+#bio p{
+    font-size: 1.5em;
+}
+h1 h3 h4{
+    font-weight: 800;
+}
+h1{
+font-size: 4em;
+}
+h2{
+font-size: 3em;
+font-weight: 600;
+}
+h3{
+font-size: 2.5em;
+}
+h4{
+font-size: 1.8em;
+}
